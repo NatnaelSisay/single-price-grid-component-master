@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
+
+// Color Theme
+$clr-primary-1: hsl(179, 62%, 43%);
+$clr-primary-2: hsl(71, 73%, 54%);
+
+$clr-neutral-1: hsl(204, 43%, 93%);
+$clr-neutral-2: hsl(218, 22%, 67%);
+
+// Fonts
+$fs-default: 16px;
+$ff-default: "Karla", sans-serif;
+
+// Breakpoints
+$screen-sm: 576px; // Large smartphones
+$screen-md: 768px; // Small tablets
+$screen-lg: 992px; // Tablets
+$screen-xl: 1200px; // Desktops
+$screen-xxl: 1440px; // Large desktops
+$screen-rwd: 405px; // Custom device

@@ -1,0 +1,24 @@
+@use "../abstracts" as *;
+
+body {
+	background-color: $clr-neutral-1;
+
+	min-height: 100vh;
+
+	@include flex();
+
+	font-size: 0.9375rem;
+	font-family: $ff-default;
+}
+
+main {
+	max-width: 57.5rem;
+	margin: 1.3rem;
+}
+
+:is(a, button, input, textarea, select, details, summary) {
+	&:focus-visible {
+		// outline: $clr-primary-1 dotted 0.188rem;
+		outline-offset: 0.188rem;
+	}
+}
