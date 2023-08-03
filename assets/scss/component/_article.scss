@@ -1,0 +1,12 @@
+.article {
+	min-width: 340px;
+	border-radius: 0.25rem;
+	overflow: hidden;
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+@media screen and (min-width: 600px) {
+	.article {
+		max-width: 650px;
+	}
+}

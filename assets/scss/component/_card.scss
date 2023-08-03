@@ -1,0 +1,68 @@
+@use "../abstracts/" as *;
+.card {
+	padding: 2rem 1.25rem;
+	color: var(--color);
+	font-size: 16px;
+
+	&__title {
+		font-size: 1.6rem;
+		color: $clr-primary-1;
+	}
+
+	&__sub-title {
+		font-size: 1.25rem;
+		color: $clr-primary-2;
+	}
+
+	&__detail {
+		color: $clr-neutral-2;
+		line-height: 1.75;
+	}
+
+	&__price {
+		display: flex;
+		align-items: center;
+		gap: 1rem;
+
+		.price {
+			font-size: 2rem;
+			font-weight: $fw-bold;
+		}
+	}
+
+	&__short-detail {
+		width: 75%;
+		color: #aeffff;
+	}
+}
+
+.section-title {
+	color: white;
+}
+
+// accents
+.card-accent-1 {
+	color: $clr-neutral-2;
+	background-color: $clr-neutral-0;
+}
+
+.card-accent-2 {
+	color: white;
+	background-color: #2ab3b1;
+}
+
+.card-accent-3 {
+	color: $clr-neutral-1;
+	background-color: #49bebd;
+}
+
+@media screen and (min-width: 600px) {
+	.card__bottom {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
+
+	.card {
+		padding: 2.3rem;
+	}
+}

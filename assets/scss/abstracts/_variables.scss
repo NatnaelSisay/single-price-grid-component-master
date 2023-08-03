@@ -1,15 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
 
 // Color Theme
+// $clr-primary-1-hsl: 179, 62%, 43%;
+$clr-primary-0: hsl(179, 62%, 53%);
 $clr-primary-1: hsl(179, 62%, 43%);
 $clr-primary-2: hsl(71, 73%, 54%);
 
+$clr-neutral-0: white;
 $clr-neutral-1: hsl(204, 43%, 93%);
 $clr-neutral-2: hsl(218, 22%, 67%);
 
 // Fonts
 $fs-default: 16px;
 $ff-default: "Karla", sans-serif;
+$fw-default: 400;
+$fw-bold: 700;
 
 // Breakpoints
 $screen-sm: 576px; // Large smartphones
