@@ -31,7 +31,8 @@
 	}
 
 	&__short-detail {
-		width: 75%;
+		list-style: none;
+		padding: 0;
 		color: #aeffff;
 	}
 }
@@ -48,12 +49,12 @@
 
 .card-accent-2 {
 	color: white;
-	background-color: #2ab3b1;
+	background-color: $clr-primary-1;
 }
 
 .card-accent-3 {
 	color: $clr-neutral-1;
-	background-color: #49bebd;
+	background-color: $clr-primary-0;
 }
 
 @media screen and (min-width: 600px) {
